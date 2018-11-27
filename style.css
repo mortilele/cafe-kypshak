@@ -1,0 +1,167 @@
+/*external css for all pages*/
+header{color:#666;padding-top:25px;padding-bottom:20px} /*CSS of Banner*/
+header h2{margin-top:10px} /**/
+header .descript h2{font-family:pfdintextcomppromedium;text-transform:uppercase}
+header .descript h5{font-family:pfdintextcompprolight;font-size:15px} /*Font style*/
+header .phone_number{text-align:right} /*CSS of contact number in banner*/
+header .phone_number h2{margin-bottom:7px}
+header .phone_number p{font-family:pfdintextcompprolight;font-size:15px}
+p.anim { /*Animation text*/
+    width: 120px;
+    height: 25px;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 6s infinite;}
+#anima {animation-timing-function: ease-out;} /*Animation*/
+#map { /*Google map size*/
+    height: 250px;
+    width: 100%;}
+.contacts { /*Contacts section*/
+    background-color: #fff;
+    padding: 25px;}	
+}
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    min-height: 300px;}
+p,a {
+    letter-spacing: 1px;
+	word-spacing: 2px;}
+em{
+    font-size: 25px;
+    height:41px;}
+    /* Hide the carousel text when the screen is less than 600 pixels wide(for phones) */
+    @media (max-width: 600px){ 
+      .carousel-caption {
+        display: none;}}
+	.modal-header, h4, .close {
+      background-color: #2b0401;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;}
+  .modal-footer {
+      background-color: #f9f9f9;}
+  .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+}
+ 
+/*comment.php css*/
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 4px;
+    background-color: #fefefe;
+    font-size: 16px;
+    resize: none;}
+#container{
+	background-color:#fefefe;
+	width:50%;
+	padding:10px;
+	margin:20px;
+	margin-left:auto;
+	margin-right:auto;}
+.button{
+	padding:5px 20px 5px 20px;
+    background:#000;
+    color: #FFF;
+	border-radius: 3px;}
+.button:hover{
+	background:#fefefe;
+	border: 2px solid #000}
+a{
+	text-decoration:none;} 
+* {
+  box-sizing: border-box;}
+.row > .column {
+  padding: 0 8px;}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;}
+.column {
+  float: left;
+  width: 25%;}
+
+.columnteam {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+
+.cardteam {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  overflow:hidden;
+}
+
+.container {
+  padding: 0 16px;
+
+}
+
+
+.titleteam {
+  color: grey;
+}
+
+.teammember {
+    width: 24.5em;
+    height:10.5em;
+    padding:10px; 
+    word-wrap: break-word;
+    border: 10px solid transparent;
+    border-image: url(border.png) 30 round;
+}
+
+ul.admin {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    width: 230px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+li.admin{
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+.adminbtn {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #f1f1f1;
+    width:228px;
+    border:none;
+    display: block;
+}
+.adminbtn:hover, .adminbtn:focus {
+    background-color: #FFF8DC;
+    color: #000;
+  }
+
+.exit {
+  color:#fefefe;
+  background-color: #606060;
+}
+
+#gotoTop {
+  position: fixed;
+  bottom: 40px;
+  width: 50px;
+  height: 50px;
+  margin-left: 1250px;
+  background: url(booking/arrow.png) no-repeat;
+  }
+  
+#gotoTop:hover {
+  background: url(booking/top.png) no-repeat;
+  }
